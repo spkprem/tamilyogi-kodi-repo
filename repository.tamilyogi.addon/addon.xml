@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.tamilyogi" name="TamilYogi Movies" version="1.0.0" provider-name="spkprem">
     <extension point="xbmc.addon.repository" name="TamilYogi Movies">
-        <info compressed="false">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/master/zip/</datadir>
+        <info compressed="false">https://github.com/spkprem/tamilyogi-kodi-repo/master/addons.xml</info>
+        <checksum>https://github.com/spkprem/tamilyogi-kodi-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/spkprem/tamilyogi-kodi-repo/master/zip/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
