@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tamilyogi" name="TamilYogi Movies" version="1.0.0" provider-name="jarnap">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.elementtree"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.metahandler" version="1.0.0"/>
+        <import addon="script.common.plugin.cache" version="2.5.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="TamilYogi Movies">
+		<info compressed="false">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/zip/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Watch Tamil Movies</summary>
+        <description>Watch tamil movies from tamilyogi.cc</description>
+        <disclaimer></disclaimer>
+	</extension>
+</addon>
