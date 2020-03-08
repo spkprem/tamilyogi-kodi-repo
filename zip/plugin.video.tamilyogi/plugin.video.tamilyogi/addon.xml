@@ -13,14 +13,14 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.repository" name="TamilYogi Movies">
-		<info compressed="false">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/spkprem/tamilyogi-kodi-repo/raw/master/zip/</datadir>
+		<info compressed="false">https://github.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/spkprem/tamilyogi-kodi-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/spkprem/tamilyogi-kodi-repo/raw/master/zip/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Watch Tamil Movies</summary>
-        <description>Watch tamil movies from tamilyogi.cc</description>
+        <description>Watch tamil movies from tamilyogi.cool</description>
         <disclaimer></disclaimer>
 	</extension>
 </addon>
